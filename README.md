@@ -13,10 +13,7 @@ Arduino ⇄ Serial ⇄ Raspberry Pi → Roboflow API → Arduino
 
 **Instalação rápida:**
 
-1. Clone os repositórios:
-
-   * `mask-access-arduino`
-   * `mask-access-pi`
+1. Clone o projeto
 2. Carregue o sketch no Arduino.
 3. No Pi: `sudo apt update && sudo apt install python3-opencv python3-requests`
 4. Ajuste `API_KEY` no script Python.
